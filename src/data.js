@@ -21,3 +21,21 @@ export const sliderItems = [
       bg: "fbf0f4",
     },
   ];
+
+export const categories = [
+    {
+      id: 1,
+      img: "https://images.unsplash.com/photo-1535240073203-05bc5d7f1113?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=julius-drost-nP5YBhsbqB4-unsplash.jpg&w=1920",
+      title: "Browse the latest smartphones",
+    },
+    {
+      id: 2,
+      img: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=maxim-hopman-Hin-rzhOdWs-unsplash.jpg&w=1920",
+      title: "Laptops for all your needs",
+    },
+    {
+      id: 3,
+      img: "https://images.unsplash.com/photo-1549206464-82c129240d11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=petri-r-QsjLjEfhlZg-unsplash.jpg&w=1920",
+      title: "Amazing deals on the latest headphones",
+    },
+  ];
