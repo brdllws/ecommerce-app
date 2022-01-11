@@ -39,3 +39,38 @@ export const categories = [
       title: "Amazing deals on the latest headphones",
     },
   ];
+
+export const popularProducts = [
+    {
+      id:1,
+      img:"https://www.stickpng.com/img/download/588524d86f293bbfae451a31/image",
+    },
+    {
+      id:2,
+      img:"https://www.stickpng.com/img/download/585ea273cb11b227491c350a/image",
+    },
+    {
+      id:3,
+      img:"https://www.stickpng.com/img/download/61d4a3a08b51e20004664d48/image",
+    },
+    {
+      id:4,
+      img:"https://www.stickpng.com/img/download/59401c27bd0e8b4eeeb603c3/image",
+    },
+    {
+      id:5,
+      img:"https://www.stickpng.com/img/download/61d4a8738b51e20004664d4e/image",
+    },
+    {
+      id:6,
+      img:"https://www.stickpng.com/img/download/61d4a5448b51e20004664d4a/image",
+    },
+    {
+      id:7,
+      img:"https://www.stickpng.com/img/download/580b57fbd9996e24bc43bfbf/image",
+    },
+    {
+      id:8,
+      img:"https://www.stickpng.com/img/download/580b57fbd9996e24bc43bfe9/image",
+    },
+  ]
