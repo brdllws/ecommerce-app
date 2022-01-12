@@ -40,6 +40,14 @@ const Button = styled.button`
     border: none;
     background-color: teal;
     color: white;
+    transition: all 0.1s ease;
+
+    &:hover {
+        color: black;
+    }
+    &:active {
+        transform: scale(0.9);
+    }
 `;
 
 const Newsletter = () => {
