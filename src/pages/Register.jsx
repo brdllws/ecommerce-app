@@ -27,7 +27,6 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-wrap: wrap;
-    display: flex;
     justify-content: center;
     align-items: center;
 `;
