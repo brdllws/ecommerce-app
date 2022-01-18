@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { useState } from "react";
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons';
 import { sliderItems } from "../data";
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     width: 100%;
@@ -9,6 +10,7 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+    ${mobile({ height: "20vh", width: "100%" })}
 `;
 
 const Arrow = styled.div`
@@ -43,6 +45,7 @@ const Slide = styled.div`
     display: flex;
     align-items: center;
     background-color: #${props=>props.bg};
+    ${mobile({ height: "20vh", width: "100vw"})}
 `;
 
 const ImgContainer = styled.div`
@@ -52,15 +55,18 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
     height: 80%;
+    ${mobile({ height: "100%", width: "50vw", objectFit: "cover" })}
 `;
 
 const InfoContainer = styled.div`
     flex: 1;
     padding: 50px;
+    ${mobile({ width: "50vw", padding: "0", marginLeft: "5px", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center" })}
 `;
 
 const Title = styled.h1`
     font-size: 78px;
+    ${mobile({ fontSize: "13px" })}
 `;
 
 const Desc = styled.p`
@@ -68,6 +74,7 @@ const Desc = styled.p`
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
+    ${mobile({ fontSize: "9px", margin: "5px 5px" })}
 `;
 
 const Button = styled.button`
@@ -75,6 +82,7 @@ const Button = styled.button`
     font-size: 20px;
     background-color: transparent;
     cursor: pointer;
+    ${mobile({ fontSize: "13px", padding: "2px" })}
 `;
 
 const Slider = () => {

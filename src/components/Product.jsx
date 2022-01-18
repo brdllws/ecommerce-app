@@ -1,5 +1,6 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from "@material-ui/icons";
 import styled from "styled-components"
+import { mobile } from "../responsive";
 
 const Info = styled.div`
     opacity: 0;
@@ -31,6 +32,7 @@ const Container = styled.div`
     justify-content: center;
     background-color: #f5fdfb;
     position: relative;
+    ${mobile({ minWidth: "60vw", height: "40vh" })}
 `;
 
 const Circle = styled.div`

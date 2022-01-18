@@ -4,12 +4,14 @@ import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
+import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
     padding: 50px;
     display: flex;
+    ${mobile({ flexDirection: "column", padding: "10px" })}
 `;
 
 const ImgContainer = styled.div`
@@ -18,11 +20,15 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
     width: 100%;
+    height: 70vh;
+    object-fit: contain;
+    ${mobile({ height: "40vh" })}
 `;
 
 const InfoContainer = styled.div`
     flex: 1;
     padding: 0 50px;
+    ${mobile({ padding: "10px" })}
 `;
 
 const Title = styled.h1`
@@ -43,6 +49,7 @@ const FilterContainer = styled.div`
     margin: 30px 0;
     display: flex;
     justify-content: space-between;
+    ${mobile({ width: "100%" })}
 `;
 
 const Filter = styled.div`
@@ -76,6 +83,7 @@ const AddProdContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    ${mobile({ width: "100%" })}
 `;
 
 const AmountContainer = styled.div`
@@ -114,10 +122,10 @@ const Product = () => {
             <Announcement/>
             <Wrapper>
                 <ImgContainer>
-                    <Image src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg&w=1920"/>
+                    <Image src="https://www.stickpng.com/img/download/61d4a8738b51e20004664d4e/image"/>
                 </ImgContainer>
                 <InfoContainer>
-                    <Title>Smart Watch</Title>
+                    <Title>Smartwatch</Title>
                     <Desc>
                         Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
