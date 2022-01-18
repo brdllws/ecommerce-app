@@ -25,6 +25,7 @@ const Desc = styled.p`
 
 const SocialsContainer = styled.div`
     display: flex;
+    margin-bottom: 50px;
 `;
 
 const SocialIcon = styled.div`
@@ -106,6 +107,7 @@ const Footer = () => {
                         <YouTube/>
                     </SocialIcon>
                 </SocialsContainer>
+                <p>Created using <a href="https://www.youtube.com/watch?v=c1xTDSIXit8">this</a> tutorial by Lama Dev</p>
             </Left>
             <Center>
                 <Title>Useful Links</Title>
