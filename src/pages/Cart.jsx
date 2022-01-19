@@ -33,7 +33,7 @@ const TopButton = styled.button`
 `;
 
 const TopTexts = styled.div`
-    ${mobile({ displa: "none" })}
+    ${mobile({ display: "none" })}
 `;
 
 const TopText = styled.span`
